@@ -1,0 +1,44 @@
+Pedro Lucas e Matheus Rauber
+
+<? php
+	class Veiculo {
+	  public $ modelo;
+	  public $ velocidade;
+	  public $ passageiros;
+	  public $ combustivel;
+	}
+	
+	class Carro estende Veiculo {
+	public $ portas;
+	public $ ano;
+	
+	public function Carro ($ model, $ veloci, $ passa, $ combusti, $ port, $ an) {
+	  $ this-> modelo = $ model;
+	  $ this-> velocidade = $ veloci;
+	  $ this-> passageiros = $ passa;
+	  $ this-> combustivel = $ combusti;
+	  $ this-> portas = $ port;
+	  $ this-> ano = $ an;
+	}
+	}
+	class Avião estende Veiculo {
+	public $ uso;
+	public $ tipo;
+	
+	public function aviao ($ model, $ veloci, $ passa, $ combusti, $ us, $ tip) {
+	  $ this-> modelo = $ model;
+	  $ this-> velocidade = $ veloci;
+	  $ this-> passageiros = $ passa;
+	  $ this-> combustivel = $ combusti;
+	  $ this-> uso = $ us;
+	  $ this-> tipo = $ tip;
+	}}
+	$ car1 = novo Carro ("jipe", "190 KM / h", 5, "320 litros", 2,1970);
+	$ car2 = novo Carro ("Gordini", "115 KM / h", 5, "32 litros", 4,1962);
+	print_r ($ c1);
+	print_r ($ c2);
+	$ avi1 = new Aviao ("Ipanema 203", "290 KM / h", 1, "900 litros", "Agricola", "Aeronave utilitária leve");
+	$ avi2 = novo Avião ("Boeing 737 NG", "833 KM / h", 232, "26.025 litros", "transporte", "Aeronave comercial");
+	print_r ($ avi1);
+	print_r ($ avi2);
+	?>
