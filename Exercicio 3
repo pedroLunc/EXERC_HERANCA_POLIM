@@ -1,0 +1,40 @@
+Pedro Lucas e Matheus Rauber
+<? php
+	class Animal {
+	  public $ nome;
+	  public $ idade;
+	  public $ som;
+	  public $ ação;
+	
+	public function setSom () {
+	    echo "{$ this-> nome} {$ this-> som} \ n";
+	  }
+	}
+	Class Cachorro estende Animal {
+	  public function Cachorro ($ nom, $ id, $ sm) {
+	    $ this-> nome = $ nom;
+	    $ this-> idade = $ id;
+	    $ this-> som = $ sm;
+	    $ this-> acao = "correr";
+	}}
+	Class Cavalo estende Animal {
+	   public function Cavalo ($ nom, $ id, $ sm) {
+	    $ this-> nome = $ nom;
+	    $ this-> idade = $ id;
+	    $ this-> som = $ sm;
+	    $ this-> acao = "correr";
+	}}
+	Class Preguica estende Animal {
+	  public function Preguica ($ nom, $ id, $ sm) {
+	    $ this-> nome = $ nom;
+	    $ this-> idade = $ id;
+	    $ this-> som = $ sm;
+	    $ this-> acao = "subir em arvore";
+	}}
+	$ a1 = novo Cachorro ("Ducky", "7 anos", "latir");
+	$ a1-> setSom ();
+	$ a2 = novo Cavalo ("Serena", "4 anos", "relinchar");
+	$ a2-> setSom ();
+	$ a3 = nova Preguica ("Mutley", "9 anos", "balir");
+	$ a3-> setSom ();
+	?>
